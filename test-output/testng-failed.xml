@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test name="SwitchWindows(failed)" parallel="methods">
+    <classes>
+      <class name="com.automation.links.SwitchWindows">
+        <methods>
+          <include name="prerequisites"/>
+          <include name="switchwindows"/>
+          <include name="switchwin"/>
+        </methods>
+      </class> <!-- com.automation.links.SwitchWindows -->
+      <class name="com.automation.links.AccessTables">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.automation.links.AccessTables -->
+    </classes>
+  </test> <!-- SwitchWindows(failed) -->
+</suite> <!-- Failed suite [Suite] -->

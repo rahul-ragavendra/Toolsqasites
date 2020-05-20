@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="methods" thread-count="5">
+
+	<test name="SwitchWindows">
+		<classes>
+			<class name="com.automation.links.SwitchWindows" />
+		</classes>
+	</test>
+	<test name="Tables">
+	<classes>
+	   <class name="com.automation.links.AccessTables"/>
+	</classes>
+	</test>
+</suite>
